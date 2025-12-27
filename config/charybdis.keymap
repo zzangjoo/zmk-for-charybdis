@@ -50,7 +50,7 @@
 &mt LEFT_SHIFT TAB  &kp A   &kp S   &kp D         &kp F        &kp G                           &kp H          &kp J      &kp K      &kp L       &kp SEMI  &kp ENTER
 &kp LCTRL           &kp Z   &kp X   &kp C         &kp V        &kp B                           &kp N          &kp M      &kp COMMA  &kp PERIOD  &kp FSLH  &kp LEFT_SHIFT
                                     &kp LEFT_WIN  &lt 1 SPACE  &mt LEFT_ALT LS(PRINTSCREEN)    &mo 2          &kp SPACE
-                                                  &left_click  &right_click                    &kp RIGHT_ALT
+                                                  &mkp MB1     &mkp MB2                        &kp RIGHT_ALT
             >;
 
             trackball-bindings = <&tmv_coarse>;
