@@ -10,6 +10,32 @@
 };
 
 / {
+    behaviors {
+        left_click_holdtap: behavior_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LCLICK_HT";
+            // 클릭 안정화 지연(20~35ms 권장)
+            tapping-term-ms = <25>;
+            // 클릭을 “짧게” 바로 내보내야 하므로 0 추천
+            quick-tap-ms = <0>;
+            flavor = "hold-preferred";
+            hold-trigger-on-release;
+            // 왼쪽 클릭 버튼
+            bindings = <&kp MS_BTN1>, <&none>;
+        };
+
+        right_click_holdtap: behavior_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RCLICK_HT";
+            tapping-term-ms = <25>;
+            quick-tap-ms = <0>;
+            flavor = "hold-preferred";
+            hold-trigger-on-release;
+            // 오른쪽 클릭 버튼
+            bindings = <&kp MS_BTN2>, <&none>;
+        };
+    };
+
     macros {
         infra_new: infra_new {
             compatible = "zmk,behavior-macro";
