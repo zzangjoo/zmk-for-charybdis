@@ -41,9 +41,7 @@
                 <&mkp MB1>,
                 <&mo 0>;
         };
-    };
 
-    behaviors {
         rmb_click_drag: rmb_click_drag {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <0>;
