@@ -19,8 +19,8 @@
             flavor = "balanced";
 
             bindings = <
-                &lmb_click   // tap
-                &lmb_drag    // hold
+                &lmb_click
+                &lmb_drag
             >;
         };
 
