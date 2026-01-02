@@ -18,7 +18,7 @@
             quick-tap-ms = <0>;
             flavor = "hold-preferred";
             hold-trigger-on-release;
-            bindings = <&kp MS_BTN1>, <&none>;
+            bindings = <&mkp MB1>, <&none>;
         };
 
         right_click_holdtap: behavior_hold_tap {
@@ -28,7 +28,7 @@
             quick-tap-ms = <0>;
             flavor = "hold-preferred";
             hold-trigger-on-release;
-            bindings = <&kp MS_BTN2>, <&none>;
+            bindings = <&mkp MB2>, <&none>;
         };
     };
 
