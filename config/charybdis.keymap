@@ -24,20 +24,6 @@
             bindings = <&kp Q &kp N &kp F &kp LS(E) &kp K &kp R &kp Q &kp K &kp A &kp N0 &kp N5 &kp POUND &kp RPAR &kp LS(ENTER)>;
             label = "CJLEE_AD";
         };
-
-        left_click: left_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp MB1>;
-            label = "LEFT_CLICK";
-        };
-
-        right_click: right_click {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp MB2>;
-            label = "RIGHT_CLICK";
-        };
     };
 
     keymap {
