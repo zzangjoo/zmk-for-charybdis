@@ -10,28 +10,6 @@
 };
 
 / {
-    behaviors {
-        left_click_holdtap: behavior_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LCLICK_HT";
-            tapping-term-ms = <25>;
-            quick-tap-ms = <0>;
-            flavor = "hold-preferred";
-            hold-trigger-on-release;
-            bindings = <&mkp MB1 &none>;
-        };
-
-        right_click_holdtap: behavior_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "RCLICK_HT";
-            tapping-term-ms = <25>;
-            quick-tap-ms = <0>;
-            flavor = "hold-preferred";
-            hold-trigger-on-release;
-            bindings = <&mkp MB2 &none>;
-        };
-    };
-
     macros {
         infra_new: infra_new {
             compatible = "zmk,behavior-macro";
